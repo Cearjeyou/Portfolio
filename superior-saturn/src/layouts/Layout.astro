@@ -1,9 +1,7 @@
 ---
-interface Props {
-	title: string;
-}
-
-const { title } = Astro.props;
+import Header from '../components/Header.astro'
+import Presentation from '../components/Presentation.astro';
+const { title, titles } = Astro.props;
 ---
 
 <!DOCTYPE html>
@@ -17,20 +15,9 @@ const { title } = Astro.props;
 		<title>{title}</title>
 	</head>
 	<body>
-		<slot />
+		<Header></Header>
+		<main class="px-14 py-10">
+			<Presentation></Presentation>
+		</main>
 	</body>
 </html>
-<style is:global>
-	:root {
-		--accent: 124, 58, 237;
-		--accent-gradient: linear-gradient(45deg, rgb(var(--accent)), #da62c4 30%, white 60%);
-	}
-	html {
-		font-family: system-ui, sans-serif;
-		background-color: #F6F6F6;
-	}
-	code {
-		font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-			Bitstream Vera Sans Mono, Courier New, monospace;
-	}
-</style>
