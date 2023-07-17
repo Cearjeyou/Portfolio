@@ -78,5 +78,10 @@
         "id": 16,
         "name": "Figma",
         "urlImage": "https://img.icons8.com/?size=512&id=zfHRZ6i1Wg0U&format=png"
+    },
+    {
+        "id": 17,
+        "name": "GraphQL",
+        "urlImage": "https://img.icons8.com/?size=512&id=KRA1PoZgRrca&format=png"
     }
 ]

@@ -2,21 +2,26 @@
 import stacks from '../data/stacks.json'
 ---
 <section class="relative">
-    <div class="h-28 bg-gradient-to-r from-[#7addfe] via-[#9ceee0] to-[#d5f16c] absolute top-0 left-0 w-full"></div>
-    <div class="w-full h-12 transform -skew-y-3 bg-fuchsia-500/50 text-white relative z-10 top-5 flex items-center py-10 overflow-hidden before:absolute before:left-0 before:top-0 before:z-[2] before:h-full before:w-[100px] before:bg-[linear-gradient(to_right,#dc6beb,rgba(200,154,205,0)_100%)] before:content-[''] after:absolute after:right-0 after:top-0 after:z-[2] after:h-full after:w-[100px] after:-scale-x-100 after:bg-[linear-gradient(to_right,#dc6beb,rgba(200,154,205,0)_100%)] after:content-['']">
-        <div class="animate-moveImages flex">
+    <div class="h-32 bg-gradient-to-r from-[#7addfe] via-[#9ceee0] to-[#d5f16c] absolute top-0 left-0 w-full"></div>
+    <div class="w-full h-12 transform -skew-y-3 bg-gray-500/70 text-white relative z-10 top-5 flex items-center py-14 overflow-hidden before:absolute before:left-0 before:top-0 before:z-[2] before:h-full before:w-[100px] before:bg-[linear-gradient(to_right,#dc6beb,rgba(200,154,205,0)_100%)] before:content-[''] after:absolute after:right-0 after:top-0 after:z-[2] after:h-full after:w-[100px] after:-scale-x-100 after:bg-[linear-gradient(to_right,#dc6beb,rgba(200,154,205,0)_100%)] after:content-['']">
+        <div class="flex animation-fill">
             {stacks.map(stack => (
-                <div class="flex flex-col justify-around items-center px-8">
-                    <img src={stack.urlImage} alt={`${stack.name}-logo`} class="w-10 aspect-square">
+                <div class="flex flex-col justify-around items-center px-8 w-32 animate-moveImages">
+                    <img src={stack.urlImage} alt={`${stack.name}-logo`} class="w-full aspect-square">
                     <p class="whitespace-nowrap">{stack.name}</p>
                 </div>
             ))}
             {stacks.map(stack => (
-                <div class="flex flex-col justify-center items-center px-8">
-                    <img src={stack.urlImage} alt={`${stack.name}-logo`} class="w-10 aspect-square">
+                <div class="flex flex-col justify-center items-center px-8 animate-moveImages w-32">
+                    <img src={stack.urlImage} alt={`${stack.name}-logo`} class="w-full aspect-square">
                     <p class="whitespace-nowrap">{stack.name}</p>
                 </div>
             ))}
         </div>
     </div>
 </section>
+<style>
+    .animation-fill {
+        animation-fill-mode: forwards;
+    }
+</style>

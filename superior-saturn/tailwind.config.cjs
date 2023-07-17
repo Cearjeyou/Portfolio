@@ -13,17 +13,13 @@ module.exports = {
 			keyframes: {
 				moveImages: {
 					'0%': {transform: 'translateX(0)'},
-					// '50%': {transform: 'translate(100vw)'},
-					'100%':{transform: 'translateX(calc(-250px*7))'}
+					// '10%': {transform: 'translateX(calc(-200px*7))'},
+					'100%':{transform: 'translateX(calc(-160px*21))'}
 				},
-				translateInfinite: {
-					'100%': {transform: 'translate(calc(-180px*12))'}
-				}
 			},
 			animation: {
-				moveImages: 'moveImages 60s linear infinite',
-				translateInfinite: 'translateInfinite 25s linear infinite'
-			}
+				moveImages: 'moveImages 68s linear infinite',
+			},
 		},
 	},
 	plugins: [],
