@@ -1,7 +1,20 @@
-<section class="flex">
-    <div class="w-1/2">
-        <h1>Carlos Arturo Bermudez Rios</h1>
-        <h3>Web Developer with more than a year of experience, developing projects and applications using different technologies and for different industries. </h3>
+---
+import {Icon} from 'astro-icon'
+---
+
+<section class="flex px-14 py-10">
+    <div class="w-1/2 flex flex-col justify-center">
+        <h1 class="text-7xl">Carlos Arturo Bermudez Rios</h1>
+        <h3 class="text-1xl pb-10">Web Developer with more than a year of experience, developing projects and applications using different technologies and for different industries. </h3>
+        <div>
+            <button class="bg-red-700 p-3 rounded-xl">Download Curriculum</button>
+        </div>
+        <div class="[&>a>svg]:w-10 flex py-10 gap-3">
+            <a href="https://github.com/Cearjeyou" target="_blank" class=""><Icon name="mdi:github" class="text-github-logo hover:text-[#55dbcb]"/></a>
+            <a href="https://www.linkedin.com/in/carlos-arturo-bermudez-rios/" target="_blank"><Icon name="mdi:linkedin" class="text-linkedin-logo hover:text-[#55dbcb]"/></a>
+        </div>
     </div>
-    <img src="/images/carlos.jpg" alt="imagen-perfil" class="w-1/2 rounded-2xl">
+    <div class="flex justify-end items-center w-1/2">
+        <img src="/images/carlos.jpg" alt="imagen-perfil" class="aspect-square rounded-full w-3/5">
+    </div>
 </section>

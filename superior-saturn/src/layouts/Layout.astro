@@ -1,6 +1,7 @@
 ---
 import Header from '../components/Header.astro'
 import Presentation from '../components/Presentation.astro';
+import Stack from '../components/Stack.astro';
 const { title, titles } = Astro.props;
 ---
 
@@ -16,8 +17,9 @@ const { title, titles } = Astro.props;
 	</head>
 	<body>
 		<Header></Header>
-		<main class="px-14 py-10">
+		<main>
 			<Presentation></Presentation>
+			<Stack></Stack>
 		</main>
 	</body>
 </html>

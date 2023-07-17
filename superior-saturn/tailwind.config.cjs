@@ -5,6 +5,10 @@ module.exports = {
 		extend: {
 			padding: {
 				'17px': '17px'
+			},
+			colors: {
+				'github-logo': '#1f2328',
+				'linkedin-logo': '#0a66c2'
 			}
 		},
 	},
