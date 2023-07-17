@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "React",
+        "urlImage": "https://img.icons8.com/?size=512&id=123603&format=png"
+    },
+    {
+        "id": 2,
+        "name": "JavaScript",
+        "urlImage": "https://img.icons8.com/?size=512&id=108784&format=png"
+    },
+    {
+        "id": 3,
+        "name": "Java",
+        "urlImage": "https://img.icons8.com/?size=512&id=13679&format=png"
+    },
+    {
+        "id": 4,
+        "name": "CSS",
+        "urlImage": "https://img.icons8.com/?size=512&id=7gdY5qNXaKC0&format=png"
+    },
+    {
+        "id": 5,
+        "name": "HTML",
+        "urlImage": "https://img.icons8.com/?size=512&id=20909&format=png"
+    },
+    {
+        "id": 6,
+        "name": "Kotlin",
+        "urlImage": "https://img.icons8.com/?size=512&id=ZoxjA0jZDdFZ&format=png"
+    },
+    {
+        "id": 7,
+        "name": "PostgreSQL",
+        "urlImage": "https://img.icons8.com/?size=512&id=38561&format=png"
+    },
+    {
+        "id": 8,
+        "name": "Spring Boot",
+        "urlImage": "https://img.icons8.com/?size=512&id=90519&format=png"
+    },
+    {
+        "id": 9,
+        "name": "PHP",
+        "urlImage": "https://img.icons8.com/?size=512&id=fAMVO_fuoOuC&format=png"
+    },
+    {
+        "id": 10,
+        "name": "AWS",
+        "urlImage": "https://img.icons8.com/?size=512&id=33039&format=png"
+    },
+    {
+        "id": 11,
+        "name": "MySQL",
+        "urlImage": "https://img.icons8.com/?size=512&id=39858&format=png"
+    },
+    {
+        "id": 12,
+        "name": "Python",
+        "urlImage": "https://img.icons8.com/?size=512&id=l75OEUJkPAk4&format=png"
+    },
+    {
+        "id": 13,
+        "name": "MongoDB",
+        "urlImage": "https://img.icons8.com/?size=512&id=tBBf3P8HL0vR&format=png"
+    },
+    {
+        "id": 14,
+        "name": "Tailwind",
+        "urlImage": "https://img.icons8.com/?size=512&id=4PiNHtUJVbLs&format=png"
+    },
+    {
+        "id": 15,
+        "name": "Angular",
+        "urlImage": "https://img.icons8.com/?size=512&id=71257&format=png"
+    },
+    {
+        "id": 16,
+        "name": "Figma",
+        "urlImage": "https://img.icons8.com/?size=512&id=zfHRZ6i1Wg0U&format=png"
+    }
+]

@@ -9,6 +9,20 @@ module.exports = {
 			colors: {
 				'github-logo': '#1f2328',
 				'linkedin-logo': '#0a66c2'
+			},
+			keyframes: {
+				moveImages: {
+					'0%': {transform: 'translateX(0)'},
+					// '50%': {transform: 'translate(100vw)'},
+					'100%':{transform: 'translateX(calc(-250px*7))'}
+				},
+				translateInfinite: {
+					'100%': {transform: 'translate(calc(-180px*12))'}
+				}
+			},
+			animation: {
+				moveImages: 'moveImages 60s linear infinite',
+				translateInfinite: 'translateInfinite 25s linear infinite'
 			}
 		},
 	},
